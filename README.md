@@ -19,7 +19,7 @@ Functions to help in download of climate data from the National Oceanic and Atmo
 `isdTempSummary_monthly()`    Monthly temperature summaries from NOAA's Integrated Surface Database (ISD)
 
 ## Install
-To load package into R: `devtools::install_github("CamBrais/risd")`
+To load package into R: `devtools::install_github("cbrais/risd")`
 
 If devtools package not yet installed: `install.packages("devtools")`
 

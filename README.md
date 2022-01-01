@@ -1,7 +1,7 @@
 # *risd*
 R Package: Climate Data from ISD (NOAA) Stations, Adding on 'rnoaa' Package
 
-Functions to help in download of climate data from the National Oceanic and Atmospheric Administration (NOAA)'s Integrated Surface Database (ISD), building on package 'rnoaa' (https://github.com/ropensci/rnoaa).
+Functions to help in download of climate data from the National Oceanic and Atmospheric Administration (NOAA)'s Integrated Surface Database (ISD; https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database), building on package 'rnoaa' (https://github.com/ropensci/rnoaa).
 
 ## Function List
 `celcius()`                                  Fahrenheit to Celsius temperature conversion

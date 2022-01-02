@@ -8,9 +8,9 @@ R Package: Climate Data from ISD (NOAA) Stations, Adding on 'rnoaa' Package
 
 `fahrenheit()`                            Celsius to Fahrenheit temperature conversion
 
-`getStationData_single()`      Data retrieval from ISD for a single station over multiple years
+`getStationData_single()`      Data retrieval from ISD for a single station over a year range
 
-`getStationData_all()`            Data retrieval from ISD for multiple stations and years
+`getStationData_all()`            Data retrieval from ISD for multiple stations over a year range
 
 `getStationInfo()`                    Station metadata from ISD
 

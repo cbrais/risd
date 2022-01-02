@@ -1,16 +1,16 @@
-# *risd*
+# risd
 R Package: Climate Data from ISD (NOAA) Stations, Adding on 'rnoaa' Package
 
-Functions to help in download and use of climate data from the National Oceanic and Atmospheric Administration (NOAA)'s Integrated Surface Database (ISD; https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database), building on package 'rnoaa' (https://github.com/ropensci/rnoaa).
+'risd' contains functions to help in the download and use of climate data from the Integrated Surface Database (ISD), which is managed by NOAA (National Oceanic and Atmospheric Administration). For more information on the ISD, see https://www.ncei.noaa.gov/products/land-based-station/integrated-surface-database. 'risd' builds on the package 'rnoaa' (https://github.com/ropensci/rnoaa), which connects to various NOAA data sources.
 
 ## Function List
 `celcius()`                                  Fahrenheit to Celsius temperature conversion
 
 `fahrenheit()`                            Celsius to Fahrenheit temperature conversion
 
-`getStationData_all()`            Data retrieval from NOAA's Integrated Surface Database (ISD) for multiple stations
+`getStationData_all()`            Data retrieval from NOAA's Integrated Surface Database (ISD) for multiple stations over a year range
 
-`getStationData_single()`      Data retrieval from NOAA's Integrated Surface Database (ISD) for single station
+`getStationData_single()`      Data retrieval from NOAA's Integrated Surface Database (ISD) for single station over a year range
 
 `getStationInfo()`                    Station information from NOAA's Integrated Surface Database (ISD)
 
@@ -18,10 +18,19 @@ Functions to help in download and use of climate data from the National Oceanic 
 
 `isdTempSummary_monthly()`    Monthly temperature summaries from NOAA's Integrated Surface Database (ISD)
 
-## Install
-To load package into R: `devtools::install_github("cbrais/risd")`
+## Installation
 
-If devtools package not yet installed: `install.packages("devtools")`
+First, intall the 'devtools' package (if already intalled skip to step 2):
+
+```
+install.packages("devtools")
+```
+
+Installing 'risd' into R: 
+
+```
+devtools::install_github("cbrais/risd")
+```
 
 ## Contact
 For information please email camille.brais@mac.com

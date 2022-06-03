@@ -20,7 +20,7 @@ R Package: Climate Data from ISD (NOAA) Stations, Adding on 'rnoaa' Package
 
 ## Installation
 
-First, intall the 'devtools' package (If already intalled skip to second step, or update the package if you do not have the latest version):
+First, intall the 'devtools' package (If already intalled, update to latest available version for risd installation to work):
 
 ```
 install.packages("devtools")

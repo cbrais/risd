@@ -33,4 +33,4 @@ devtools::install_github("cbrais/risd")
 ```
 
 ## Contact
-For information please email camille.brais@mac.com
+For information please email camille.brais@mail.mcgill.ca
